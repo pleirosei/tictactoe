@@ -1,7 +1,8 @@
 class Board
+	attr_accessor :board
 
 	def initialize
-		@board =	{
+		board =	{
 			slot1: "0",
 			slot2: "0",
 			slot3: "0",
@@ -12,6 +13,8 @@ class Board
 			slot8: "0",
 			slot9: "0"
 							}
+
+		@board = board
 	end
 
 	def board
