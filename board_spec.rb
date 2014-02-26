@@ -12,4 +12,8 @@ describe Board do
 	it "has a board position" do
 		@board.board[:slot1].should == "0"
 	end
+
+	it "has a to_s method" do
+		@board.to_s == @board.board.each { |key, value| puts "#{value} is in slot #{key[4]}." }
+	end
 end
