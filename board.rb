@@ -21,12 +21,6 @@ class Board
 	def to_s
 		@board.each { |key, value| puts "#{value} is in slot #{key[4]}."}		
 	end
-		
-
-#	def board
-		
-#	end
-
 end
 
 if __FILE__ == $0
