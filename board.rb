@@ -3,15 +3,15 @@ class Board
 
 	def initialize
 		board =	{
-			slot1: "0",
-			slot2: "0",
-			slot3: "0",
-			slot4: "0",
-			slot5: "0",
-			slot6: "0",
-			slot7: "0",
-			slot8: "0",
-			slot9: "0"
+			slot1: "",
+			slot2: "",
+			slot3: "",
+			slot4: "",
+			slot5: "",
+			slot6: "",
+			slot7: "",
+			slot8: "",
+			slot9: ""
 							}
 
 		@board = board
@@ -20,6 +20,9 @@ class Board
 	def board
 		@board
 	end
+
+def play_on_board(play)
+end
 
 	def to_s
 		@board.each { |key, value| puts "#{value} is in slot #{key[4]}."}		

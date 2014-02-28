@@ -10,7 +10,7 @@ describe Board do
 	end
 
 	it "has a board position" do
-		@board.board[:slot1].should == "0"
+		@board.board[:slot1].should == ""
 	end
 
 	it "has a to_s method" do
