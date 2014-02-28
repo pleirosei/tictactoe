@@ -32,4 +32,4 @@ end
 if __FILE__ == $0
 	board = Board.new
 	puts board
-end
+end 
